@@ -1,16 +1,15 @@
 specVersion: 0.0.2
 description: Omnivault.
-repository: https://github.com/omni-corp-protocols/omnivault-moowings-subgraph
-schema:
+repository: https://github.com/omni-corp-protocols/omnivault-puffLina-subgraph
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: Comptroller
     network: bsc
     source:
-      address: "0x0AFb4648E0F0C7bD08edE485421C094Ec72cd3A5"
+      address: "0x118122C7de0Fa0DE3e4017fD9eA6C422438A46C6"
       abi: Comptroller
-      startBlock: 11107033
+      startBlock: 11899843
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
